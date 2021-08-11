@@ -1,0 +1,128 @@
+:root {
+    --hippie-blue: #4D96A9;
+    --deluge: #855FB1;
+    --ebony-clay: #28283D;
+    --manatee:#87879D;
+    --malibu: #8FE3F9;
+    --mauve: #D9B8FF;
+    --alabaster : #FAFAFA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+h1, 
+h2, 
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inherit;
+    padding-top: 48px;
+    justify-content: center;
+}
+
+main {
+    padding-top: 54px;
+}
+
+.hero-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.hero-container > img {
+    max-height: 155px;
+    
+}
+
+.image-hero-left {
+    justify-self: flex-start;
+    margin-right: 8px;
+    margin-left: -20px;
+}
+
+.image-hero-right {
+    justify-self: flex-end;
+    margin-left: 8px;
+}
+
+
+.page-container {
+    padding: 48px 24px;
+}
+
+.landing-page-title {
+    color: var(--ebony-clay);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 24px;
+}
+
+
+.landing-page-paragraph {
+    color: var(--manatee);
+    padding-top: 24px;
+    padding-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn {
+    color: var(--alabaster);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 900;
+    border: 0;
+    border-radius: 29px;
+    padding: 16px 29px;
+    margin-bottom: 16px;
+}
+
+
+.btn-download{
+    background-color: var(--hippie-blue);
+    max-width: 193px;
+}
+
+.btn-download > span {
+    color: var(--malibu);
+}
+
+.btn-what {
+    background-color: var(--deluge);
+    max-width: 139px;
+}
+
+footer { font-size: 11px; text-align: center; }
+footer a { color: hsl(228, 45%, 44%); }
