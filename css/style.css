@@ -106,8 +106,12 @@ main {
     border: 0;
     border-radius: 29px;
     padding: 16px 29px;
-    margin-bottom: 16px;
+    
     cursor: pointer;
+}
+
+.btn:first-child {
+    margin-bottom: 16px;
 }
 
 
@@ -135,8 +139,6 @@ main {
     height: 84px;
     margin: 0 auto;
 }
-
-
 .section-1 {
     border-radius: 50%;
     border: 1px solid rgba(var(--manatee), .25);
@@ -149,6 +151,21 @@ main {
     background-clip: padding-box;
     margin: 0 auto;
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    justify-content: center;
+    align-content: center ;
+}
+
+.gallery-item {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
 
 
 
