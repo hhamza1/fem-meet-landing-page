@@ -107,6 +107,7 @@ main {
     border-radius: 29px;
     padding: 16px 29px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 
@@ -123,6 +124,38 @@ main {
     background-color: var(--deluge);
     max-width: 139px;
 }
+
+.section-container {
+    margin: 64px auto;
+}
+
+.path {
+    border-left: .05px solid var(--manatee);
+    width: 0;
+    height: 84px;
+    margin: 0 auto;
+}
+
+
+.section-1 {
+    border-radius: 50%;
+    border: 1px solid rgba(var(--manatee), .25);
+    border: 1px solid var(--manatee);
+    color: var(--manatee);
+    font-weight: 900;
+    max-width: 56px;
+    padding: 15px 19px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
 
 footer { font-size: 11px; text-align: center; }
 footer a { color: hsl(228, 45%, 44%); }
