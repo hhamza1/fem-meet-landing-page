@@ -78,7 +78,10 @@ main {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    padding: 0 24px;
+}
+
+.sm-title {
+    font-size: 32px;
 }
 
 
@@ -88,6 +91,8 @@ main {
     padding-bottom: 32px;
     text-align: center;
     font-size: 16px;
+    line-height: 26px;
+    word-break: keep-all;
 }
 
 
@@ -139,7 +144,7 @@ main {
     height: 84px;
     margin: 0 auto;
 }
-.section-1 {
+.section {
     border-radius: 50%;
     border: 1px solid rgba(var(--manatee), .25);
     border: 1px solid var(--manatee);
@@ -157,12 +162,41 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
     justify-content: center;
-    align-content: center ;
+    align-content: center;
+    margin-bottom: 32px;
 }
 
 .gallery-item {
     width: 100%;
     border-radius: 8px;
+}
+
+.landing-page-subtitle {
+    color: var(--hippie-blue);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.experience-section {
+    background-image: url(../assets/mobile/image-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 428px;
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-bottom: -48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.experience-section::before {
+    content: '';
+    background: var(--hippie-blue);
+    width: 375px;
+    height: 428px;
 }
 
 
