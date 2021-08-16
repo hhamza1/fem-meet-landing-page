@@ -55,7 +55,6 @@ main {
 
 .hero-container > img {
     max-height: 155px;
-    
 }
 
 .image-hero-left {
@@ -242,14 +241,74 @@ main {
     padding-top: 92px;
 }
 
-
-
-
-
-
-
-
-
-
-footer { font-size: 11px; text-align: center; }
+footer { font-size: 11px; text-align: center; padding-bottom: 10px; padding-top: 5px; }
 footer a { color: hsl(228, 45%, 44%); }
+
+
+/*================= Tablet View =============================*/
+
+
+@media screen and (min-width: 376px) and (max-width: 1023px) {
+    .hero-container {
+        background: url(../assets/tablet/image-hero.png);
+        background-repeat: no-repeat;
+        min-height: 303px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-container > img {
+        display: none;
+    }
+
+    .section-1-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    .landing-page-title {
+        font-size: 48px;
+    }
+
+    .landing-page-paragraph {
+        max-width: 87.5%;
+    }
+
+
+    .btn-container{
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .btn:first-child {
+        margin-bottom: 0;
+        margin-right: 8px;
+    }
+
+    .btn:last-child {
+        margin-left: 8px;
+    }
+
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 11px;
+    }
+
+
+    .experience-section-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+
+
+}
