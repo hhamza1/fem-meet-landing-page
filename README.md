@@ -28,6 +28,9 @@ Users should be able to:
 #### Mobile View
 ![Mobile View](./screenshots/mobile-view.png)
 
+#### Tablet View
+![Tablet View](./screenshots/tablet-view.png)
+
 #### Desktop View
 ![Desktop View]()
 
