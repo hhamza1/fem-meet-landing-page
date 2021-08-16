@@ -395,7 +395,14 @@ footer a { color: hsl(228, 45%, 44%); }
         margin: 64px auto;
     }
 
-    .experience-section { display: flex; align-items: center; justify-content: center;}
+    .experience-section { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background: url('../assets/desktop/image-footer.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
 
 
     #modern-use-desktop {
@@ -431,9 +438,4 @@ footer a { color: hsl(228, 45%, 44%); }
         flex-shrink: 0;
     }
 
-    .experience-section {
-        background: url('../assets/desktop/image-footer.jpg');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
 }
