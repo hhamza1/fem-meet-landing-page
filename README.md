@@ -10,8 +10,6 @@ This is a solution to the [meet landing page challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -32,10 +30,10 @@ Users should be able to:
 ![Tablet View](./screenshots/tablet-view.png)
 
 #### Desktop View
-![Desktop View]()
+![Desktop View](./screenshots/desktop-view.png)
 
 #### Desktop View - Active state
-![Desktop View - Active state]()
+![Desktop View - Active state](./screenshots/desktop-active-state.png)
 
 ### Links
 
@@ -44,20 +42,13 @@ Users should be able to:
 
 ## My process
 
-### What I learned
-
-
-```css
-
-```
-### Useful resources
-
 ### Built with
 
 - HTML
 - CSS
 - Mobile-first workflow
 - Flexbox
+- Grid
 
 ## Author
 
